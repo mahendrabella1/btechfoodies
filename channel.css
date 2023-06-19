@@ -1,0 +1,100 @@
+.one{
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    background-color: aqua;
+    text-decoration: black;
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+    transition: 0.5s;
+
+}
+.but{
+    color: white;
+    text-decoration: none;
+}
+.one:hover{
+    color: white;
+    background-color: rgb(54, 118, 118);
+    opacity: 0.5;}
+.telugu{
+    height: 300px;
+    border: none;
+    border-radius: 200px;
+}
+.captian{
+    height: 300px;
+    border: none;
+    border-radius: 1000px;
+    width: 250px;
+    
+
+}
+#mouli{
+    height: 300px;
+    border: none;
+    border-radius: 1000px;
+    margin-top: 1%;
+    
+
+
+}
+.tiger{
+    height: 300px;
+    border: none;
+    border-radius: 10000px;
+    width: 250px;
+    
+}
+.heading{
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+}
+.body{
+    background-color: rgb(237, 211, 211);
+}
+.foot{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.ab{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(56, 49, 49);
+}
+.divv{
+    width: 900px;
+    
+
+}
+.header{
+
+    height: 86px;
+    background-color: rgb(145, 152, 166);
+}
+.nom{
+    height: 300px;
+    width: 250px;
+    border: none;
+    border-radius: 1000px;
+    
+}
+.youtube{
+    height: 100px;
+    width: 300px;
+}
+.foodies{
+    margin-left: 60%;
+    font-weight: bold;
+    font-family: italic;
+    color: rgb(30, 153, 234);
+    width: 1000px;
+}

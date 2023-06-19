@@ -1,0 +1,63 @@
+.body{
+    font-family: sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("72a184aa7846cad0d5a82cf55dc3f406.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    font-size: 50px;
+    color: rgb(238, 255, 0);
+}
+.sub{
+    color: black;
+    font-family: tahoma;
+    font-size: 20px;
+}
+.para1{
+    position: absolute;
+    top: 53%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 900px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.para2{
+    position: absolute;
+    top: 73%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 900px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.one{
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    background-color: aqua;
+    text-decoration: black;
+
+    margin-left: 20px;
+    transition: 0.5s;
+    float: right;
+
+}
+.but{
+    color: white;
+    text-decoration: none;
+}
+.one:hover{
+    color: white;
+    background-color: rgb(54, 118, 118);
+    opacity: 0.5;
+}

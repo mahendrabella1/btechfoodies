@@ -1,0 +1,12 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.bo{
+    background-image: url("view-food-assortment-with-copy-space_23-2148859557.avif");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}

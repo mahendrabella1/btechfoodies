@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      
+    }
+    
+
+    
+    
+    .container {
+      max-width: 400px;
+      
+      margin: 0 auto;
+      
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgb(0, 172, 245);
+    }
+    
+    .container h2 {
+      text-align: center;
+    }
+    h2{
+      color: rgb(255, 149, 0);
+    }
+    
+    
+    
+    
+    .container input[type="text"],
+    .container input[type="email"],
+    .container input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 10px;
+      border: 1px solid rgb(0, 204, 255);
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+    #text{
+        color:rgb(0, 4, 255);
+    }
+    
+    .container button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    .container button:hover {
+      background-color: #45a049;
+    }
+    input{
+        font-family: arial;
+        font-weight: bold;
+        
+    }
+    input:hover{
+        color: rgb(89, 0, 255);
+    
+    }
+    .head{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("485345.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    }
+    .input{
+        color: rgb(0, 42, 255);
+    }
+    .p{
+        color: rgba(0, 174, 255, 0.655);
+    }
+    #form{
+        color: black;
+    }
+  </style>
+</head>
+<body class="head">
+  <div class="container">
+     
+    <h2>Registration Form</h2>
+    <form >
+      <input  type="text" name="ID" placeholder ="ID" required>
+      <input type="text" name="Name" placeholder="name" required>
+      <input type="text" name="Course" placeholder="course" required>
+      <input type="text" name="Roll no" placeholder="Roll no" required>
+      <input type="email" name="email" placeholder="email"required>
+      <input type="text" name="username" placeholder="username"required>
+      <input type="text" name="About us" placeholder="About us"required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
